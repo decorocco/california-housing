@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "california-housing"
+version = "0.1.0"
+description = ""
+authors = ["André Rocco <andrebr@al.insper.edu.br>"]
+readme = "README.md"
+packages = [{include = "california_housing"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
